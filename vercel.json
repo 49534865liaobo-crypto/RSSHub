@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm install --legacy-peer-deps && npm run build:routes && tsdown --config ./tsdown-vercel.config.ts",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist-vercel",
   "framework": null,
   "installCommand": "npm install --legacy-peer-deps"
 }
