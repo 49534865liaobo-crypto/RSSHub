@@ -1,16 +1,5 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "framework": "hono",
-    "outputDirectory": "src",
-    "functions": {
-        "src/server.mjs": {
-            "includeFiles": "./src/templates/**/*.art"
-        }
-    },
-    "rewrites": [
-        {
-            "source": "/favicon.ico",
-            "destination": "/favicon.png"
-        }
-    ]
+  "buildCommand": "npm install --legacy-peer-deps && npm run vercel-build",
+  "outputDirectory": "dist",
+  "framework": null
 }
